@@ -1,6 +1,6 @@
 # AI PDF Summarizer - Résumés intelligents de documents académiques
 
-[ [ [ [
+
 
 **Summarizeur de PDF piloté par IA** utilisant PyMuPDF + LangChain "map-reduce" pour documents volumineux (articles scientifiques, rapports H2, thèses). Résumés concis et structurés en 1 clic via interface Streamlit.[1][3]
 
@@ -13,7 +13,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/votreusername/ai-pdf-summarizer.git
+git clone https://github.com/salimklibi/pdf_summarizer.git
 cd ai-pdf-summarizer
 conda create -n pdf-ai python=3.10
 conda activate pdf-ai
@@ -82,7 +82,3 @@ llm = ChatOllama(model="llama3", temperature=0)
 Auteur: Salim KLIBI - PhD Decision analysis & H2 energy Systems
 LinkedIn: https://www.linkedin.com/in/salim-klibi/
 ```
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/147763333/a7da12a4-cedc-4096-9c11-bfe00a5d39eb/H2_paysdelaloire.py)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/147763333/bc9ca8b9-263a-4eb5-b91d-5e9e72fdb1fb/H2_vendee.py)
-[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/147763333/5905f272-1f8a-4e95-9dbb-1d59968b42c9/main.py)
