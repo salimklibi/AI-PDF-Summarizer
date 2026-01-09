@@ -2,14 +2,14 @@
 
 
 
-**Summarizeur de PDF piloté par IA** utilisant PyMuPDF + LangChain "map-reduce" pour documents volumineux (articles scientifiques, rapports H2, thèses). Résumés concis et structurés en 1 clic via interface Streamlit.[1][3]
+**Summarizeur de PDF piloté par IA** utilisant PyMuPDF + LangChain "map-reduce" pour documents volumineux (articles scientifiques, rapports H2, thèses). Résumés concis et structurés en 1 clic via interface Streamlit.
 
 ## Fonctionnalités
 - Extraction texte optimisée (PyMuPDF)
 - Chunking intelligent (2000 tokens/chemin avec overlap)
 - Summarisation "map-reduce" GPT-4o-mini (gère 100+ pages)
 - Interface web Streamlit avec téléchargement TXT
-- Variante offline Ollama (Llama3) incluse[3]
+- Variante offline Ollama (Llama3) incluse
 
 ## Installation
 ```bash
@@ -46,7 +46,7 @@ streamlit run summarizer.py
 ```
 1. Uploadez PDF (articles MCDA, rapports hydrogène, thèses)
 2. Cliquez **"Summariser"** → Résumé structuré en 30s
-3. **Téléchargez TXT** pour notes de littérature review[3]
+3. **Téléchargez TXT** pour notes de littérature review
 
 ## Personnalisation
 Modifiez le prompt dans `summarizer.py` :
@@ -56,7 +56,7 @@ prompt = "Résumez les résultats MCDA, implications territoriales et recommanda
 
 ## Exemple Résumé
 **Input** : Rapport 50 pages sur electrolyseurs PEM/AEM  
-**Output** : "L'analyse TOPSIS classe PEM > AEM sur coût/infrastructures. Vendée : potentiel ENR 82/100, classée 6e nationale. Recommandation : mix 70% local H2."[2][1]
+**Output** : "L'analyse TOPSIS classe PEM > AEM sur coût/infrastructures. Vendée : potentiel ENR 82/100, classée 6e nationale. Recommandation : mix 70% local H2."
 
 ## Outputs
 - `resume.pdf.txt` : Résumé téléchargeable
