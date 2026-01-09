@@ -76,7 +76,7 @@ llm = ChatOllama(model="llama3", temperature=0)
 - **Export** : `reportlab` pour PDF résumé formaté
 
 ## Licence et Contribution
-**MIT License**. Parfait pour littérature review PhD hydrogène Paris-Dauphine. PR bienvenues pour prompts spécialisés MCDA/techno-éco.[1]
+**MIT License**. Parfait pour littérature review PhD hydrogène Paris-Dauphine. PR bienvenues pour prompts spécialisés MCDA/techno-éco.
 
 ```
 Auteur: Salim KLIBI - PhD Decision analysis & H2 energy Systems
